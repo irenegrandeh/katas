@@ -1,17 +1,18 @@
 package src.test;
 
 import org.junit.jupiter.api.Test;
-import src.main.RunRover;
+import src.main.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class RunRoverTest {
 
+    private RunRover runRover = new RunRover();
     @Test
-    void returnAtest() {
-        RunRover runRover = new RunRover();
-        String result = runRover.returnA();
+    private void moveForwardNorth() {
+
+        String result = runRover.;
         assertEquals(result, "a");
     }
 }
